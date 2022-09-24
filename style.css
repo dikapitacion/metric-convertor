@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.container {
+  font-family: "Inter";
+  white-space: normal;
+  margin: auto;
+  position: relative;
+  min-width: 33%;
+  max-width: 550px;
+  max-height: 100%;
+  padding: 0;
+  align-items: center;
+  box-shadow: 0 10px 10px 10px rgba(171, 157, 157, 0.25);
+}
+.inpt {
+  max-height: 285px;
+  background-color: #6943ff;
+  align-items: center;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.inpt h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  padding-top: 5%;
+}
+#input-el {
+  background-color: #6943ff;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 117px;
+  height: 83px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  left: 39.27%;
+  right: 3%;
+  color: azure;
+  margin-top: 5%;
+}
+::placeholder {
+  color: azure;
+  opacity: 0.5;
+}
+#btn-el {
+  text-align: center;
+  width: 117px;
+  height: 30px;
+  position: relative;
+  left: 39.27%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3d3d3d;
+}
+.cont{
+  margin: 0;
+  background-color: #F4F4F4;
+}
+
+.r1 {
+  position: relative;
+  margin-top: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2.5%;
+  width: 90%;
+  height: 108.57px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 4.68077px 0px 0px 0px;
+}
+.r1 h3 {
+  margin: 5%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100%;
+  line-height: 100%;
+  /* or 100% */
+
+  text-align: center;
+
+  color: #5a537b;
+}
+.r1 span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  color: #353535;
+}
+.r2{
+  position: relative;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+@media only screen and (max-width:600px){
+.container{margin-top: 0;min-height: 100vh;}
+#input-el{left: 33.33%;}
+#btn-el{left: 33.33%;}
+}
